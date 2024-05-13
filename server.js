@@ -5,46 +5,22 @@ const PORT = 3000;
 let db = [
   {
     id: 1,
-    title: 'A bird flies upside down',
+    title: 'My wife looked surprised!',
     comedian: 'Kalu',
     year: 2021,
   },
   {
     id: 2,
-    title: 'I enjoy telling jokes',
+    title: "Why don't scientists trust atoms?",
     comedian: 'Jain',
     year: 2020,
   },
   {
     id: 3,
-    title: 'There is nothing funny that is not funny',
+    title: "Parallel lines have so much in common.",
     comedian: 'Lola',
     year: 2019,
-  },
-  {
-    id: 4,
-    title: 'Laughter comes before a lifting',
-    comedian: 'Bernerd',
-    year: 2018,
-  },
-  {
-    id: 5,
-    title: 'Rejoice always and I say rejoice',
-    comedian: 'Jerry',
-    year: 2017,
-  },
-  {
-    id: 6,
-    title: 'I enjoy all that we do here',
-    comedian: 'Kate',
-    year: 2016,
-  },
-  {
-    id: 7,
-    title: 'Adding new jokes to already existing ones',
-    comedian: 'Luigi',
-    year: 2015,
-  },
+  }
 ];
 
 const server = createServer((req, res) => {
